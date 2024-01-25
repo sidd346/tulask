@@ -1,0 +1,142 @@
+{
+  "id":"com.employdemysolutions:employdemy-solutions.all:slingosgifeature:user-aggregated-author:1.0.0-SNAPSHOT",
+  "bundles":[
+    {
+      "id":"com.employdemysolutions:employdemy-solutions.core:1.0.0-SNAPSHOT",
+      "feature-origins":"com.employdemysolutions:employdemy-solutions.all:slingosgifeature:1.0.0-SNAPSHOT",
+      "Bundle-SymbolicName":"employdemy-solutions.core",
+      "Bundle-Version":"1.0.0.SNAPSHOT",
+      "start-order":"20",
+      "content-package-origins":"com.employdemysolutions:employdemy-solutions.all:1.0.0-SNAPSHOT"
+    }
+  ],
+  "configurations":  {
+    "org.apache.sling.commons.log.LogManager.factory.config~employdemy-solutions":    {
+      ":configurator:content-package-origins":"com.employdemysolutions:employdemy-solutions.all:1.0.0-SNAPSHOT|com.employdemysolutions:employdemy-solutions.ui.config:1.0.0-SNAPSHOT",
+      "org.apache.sling.commons.log.names":[
+        "com.employdemysolutions"
+      ],
+      "org.apache.sling.commons.log.level":"INFO",
+      "org.apache.sling.commons.log.file":"logs/error.log",
+      "org.apache.sling.commons.log.additiv":"false",
+      ":configurator:feature-origins-org.apache.sling.commons.log.names":[
+        "com.employdemysolutions:employdemy-solutions.all:slingosgifeature:1.0.0-SNAPSHOT"
+      ],
+      ":configurator:feature-origins-org.apache.sling.commons.log.file":[
+        "com.employdemysolutions:employdemy-solutions.all:slingosgifeature:1.0.0-SNAPSHOT"
+      ],
+      ":configurator:feature-origins-org.apache.sling.commons.log.level":[
+        "com.employdemysolutions:employdemy-solutions.all:slingosgifeature:1.0.0-SNAPSHOT"
+      ],
+      ":configurator:feature-origins-org.apache.sling.commons.log.additiv":[
+        "com.employdemysolutions:employdemy-solutions.all:slingosgifeature:1.0.0-SNAPSHOT"
+      ],
+      ":configurator:feature-origins":[
+        "com.employdemysolutions:employdemy-solutions.all:slingosgifeature:1.0.0-SNAPSHOT"
+      ]
+    },
+    "com.adobe.granite.cors.impl.CORSPolicyImpl~employdemy-solutions":    {
+      ":configurator:content-package-origins":"com.employdemysolutions:employdemy-solutions.all:1.0.0-SNAPSHOT|com.employdemysolutions:employdemy-solutions.ui.config:1.0.0-SNAPSHOT",
+      "alloworigin":[
+        "http://localhost:3000"
+      ],
+      "allowedpaths":[
+        "/(content|conf)/employdemy-solutions.*"
+      ],
+      "supportedheaders":[
+        "Authorization",
+        "Origin",
+        "Accept",
+        "X-Requested-With",
+        "Content-Type",
+        "Access-Control-Request-Method",
+        "Access-Control-Request-Headers"
+      ],
+      "supportedmethods":[
+        "GET",
+        "HEAD"
+      ],
+      "alloworiginregexp":[
+      ],
+      ":configurator:feature-origins-supportedmethods":[
+        "com.employdemysolutions:employdemy-solutions.all:slingosgifeature:author:1.0.0-SNAPSHOT"
+      ],
+      ":configurator:feature-origins-alloworigin":[
+        "com.employdemysolutions:employdemy-solutions.all:slingosgifeature:author:1.0.0-SNAPSHOT"
+      ],
+      ":configurator:feature-origins-alloworiginregexp":[
+        "com.employdemysolutions:employdemy-solutions.all:slingosgifeature:author:1.0.0-SNAPSHOT"
+      ],
+      ":configurator:feature-origins-supportedheaders":[
+        "com.employdemysolutions:employdemy-solutions.all:slingosgifeature:author:1.0.0-SNAPSHOT"
+      ],
+      ":configurator:feature-origins-allowedpaths":[
+        "com.employdemysolutions:employdemy-solutions.all:slingosgifeature:author:1.0.0-SNAPSHOT"
+      ],
+      ":configurator:feature-origins":[
+        "com.employdemysolutions:employdemy-solutions.all:slingosgifeature:author:1.0.0-SNAPSHOT"
+      ]
+    },
+    "com.day.cq.wcm.mobile.core.impl.MobileEmulatorProvider~employdemy-solutions":    {
+      ":configurator:content-package-origins":"com.employdemysolutions:employdemy-solutions.all:1.0.0-SNAPSHOT|com.employdemysolutions:employdemy-solutions.ui.config:1.0.0-SNAPSHOT",
+      "mobile.resourceTypes":[
+        "employdemy-solutions/components/page"
+      ],
+      "README":"Indicate which page resource types should display the mobile emulators.",
+      ":configurator:feature-origins-mobile.resourceTypes":[
+        "com.employdemysolutions:employdemy-solutions.all:slingosgifeature:author:1.0.0-SNAPSHOT"
+      ],
+      ":configurator:feature-origins-README":[
+        "com.employdemysolutions:employdemy-solutions.all:slingosgifeature:author:1.0.0-SNAPSHOT"
+      ],
+      ":configurator:feature-origins":[
+        "com.employdemysolutions:employdemy-solutions.all:slingosgifeature:author:1.0.0-SNAPSHOT"
+      ]
+    }
+  },
+  "assembled-features:ARTIFACTS|TRANSIENT":[
+    "com.employdemysolutions:employdemy-solutions.all:slingosgifeature:1.0.0-SNAPSHOT",
+    "com.employdemysolutions:employdemy-solutions.all:slingosgifeature:author:1.0.0-SNAPSHOT"
+  ],
+  "content-packages:ARTIFACTS|true":[
+    {
+      "id":"com.employdemysolutions:employdemy-solutions.ui.apps:zip:cp2fm-converted:1.0.0-SNAPSHOT",
+      "feature-origins":"com.employdemysolutions:employdemy-solutions.all:slingosgifeature:1.0.0-SNAPSHOT"
+    },
+    {
+      "id":"com.employdemysolutions:employdemy-solutions.ui.config:zip:cp2fm-converted:1.0.0-SNAPSHOT",
+      "feature-origins":"com.employdemysolutions:employdemy-solutions.all:slingosgifeature:1.0.0-SNAPSHOT"
+    },
+    {
+      "id":"com.employdemysolutions:employdemy-solutions.all:zip:cp2fm-converted:1.0.0-SNAPSHOT",
+      "feature-origins":"com.employdemysolutions:employdemy-solutions.all:slingosgifeature:1.0.0-SNAPSHOT"
+    }
+  ],
+  "repoinit:TEXT|true":[
+    "# origin=com.employdemysolutions:employdemy-solutions.all:1.0.0-SNAPSHOT|com.employdemysolutions:employdemy-solutions.ui.config:1.0.0-SNAPSHOT source=org.apache.sling.jcr.repoinit.RepositoryInitializer~employdemy-solutions\r",
+    "create path (sling:OrderedFolder) /content/dam/employdemy-solutions\r",
+    "create path (nt:unstructured) /content/dam/employdemy-solutions/jcr:content\r",
+    "set properties on /content/dam/employdemy-solutions/jcr:content",
+    "  set cq:conf{String} to /conf/employdemy-solutions",
+    "  set jcr:title{String} to \"Employdemy Solutions\"",
+    "end"
+  ],
+  "api-regions:JSON|false":[
+    {
+      "name":"global",
+      "exports":[
+        "com.employdemysolutions.core.filters",
+        "com.employdemysolutions.core.listeners",
+        "com.employdemysolutions.core.models",
+        "com.employdemysolutions.core.schedulers",
+        "com.employdemysolutions.core.servlets"
+      ],
+      "feature-origins":[
+        "com.employdemysolutions:employdemy-solutions.all:slingosgifeature:1.0.0-SNAPSHOT"
+      ]
+    }
+  ],
+  "artifact-rules:JSON|false":{
+
+  }
+}

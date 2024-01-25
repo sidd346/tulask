@@ -1,0 +1,49 @@
+{
+  "id":"com.employdemysolutions:employdemy-solutions.all:slingosgifeature:1.0.0-SNAPSHOT",
+  "bundles":[
+    {
+      "id":"com.employdemysolutions:employdemy-solutions.core:1.0.0-SNAPSHOT",
+      "Bundle-SymbolicName":"employdemy-solutions.core",
+      "Bundle-Version":"1.0.0.SNAPSHOT",
+      "start-order":"20",
+      "content-package-origins":"com.employdemysolutions:employdemy-solutions.all:1.0.0-SNAPSHOT"
+    }
+  ],
+  "configurations":  {
+    "org.apache.sling.commons.log.LogManager.factory.config~employdemy-solutions":    {
+      "org.apache.sling.commons.log.names":[
+        "com.employdemysolutions"
+      ],
+      "org.apache.sling.commons.log.level":"INFO",
+      "org.apache.sling.commons.log.file":"logs/error.log",
+      "org.apache.sling.commons.log.additiv":"false",
+      ":configurator:content-package-origins":"com.employdemysolutions:employdemy-solutions.all:1.0.0-SNAPSHOT|com.employdemysolutions:employdemy-solutions.ui.config:1.0.0-SNAPSHOT"
+    }
+  },
+  "content-packages:ARTIFACTS|true":[
+    "com.employdemysolutions:employdemy-solutions.ui.apps:zip:cp2fm-converted:1.0.0-SNAPSHOT",
+    "com.employdemysolutions:employdemy-solutions.ui.config:zip:cp2fm-converted:1.0.0-SNAPSHOT",
+    "com.employdemysolutions:employdemy-solutions.all:zip:cp2fm-converted:1.0.0-SNAPSHOT"
+  ],
+  "repoinit:TEXT|true":[
+    "# origin=com.employdemysolutions:employdemy-solutions.all:1.0.0-SNAPSHOT|com.employdemysolutions:employdemy-solutions.ui.config:1.0.0-SNAPSHOT source=org.apache.sling.jcr.repoinit.RepositoryInitializer~employdemy-solutions\r",
+    "create path (sling:OrderedFolder) /content/dam/employdemy-solutions\r",
+    "create path (nt:unstructured) /content/dam/employdemy-solutions/jcr:content\r",
+    "set properties on /content/dam/employdemy-solutions/jcr:content",
+    "  set cq:conf{String} to /conf/employdemy-solutions",
+    "  set jcr:title{String} to \"Employdemy Solutions\"",
+    "end"
+  ],
+  "api-regions:JSON|false":[
+    {
+      "name":"global",
+      "exports":[
+        "com.employdemysolutions.core.filters",
+        "com.employdemysolutions.core.listeners",
+        "com.employdemysolutions.core.models",
+        "com.employdemysolutions.core.schedulers",
+        "com.employdemysolutions.core.servlets"
+      ]
+    }
+  ]
+}

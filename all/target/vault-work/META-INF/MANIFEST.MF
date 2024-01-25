@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 17
+Implementation-Title: Employdemy Solutions - All
+Implementation-Version: 1.0.0-SNAPSHOT
+Content-Package-Type: container
+Content-Package-Id: com.employdemysolutions:employdemy-solutions.all:1.0
+ .0-SNAPSHOT
+Content-Package-Description: All content package for Employdemy Solution
+ s
+Content-Package-Roots: /apps/employdemy-solutions-packages,/apps/employd
+ emy-solutions-vendor-packages
+

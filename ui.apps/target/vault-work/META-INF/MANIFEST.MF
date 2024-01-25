@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 17
+Implementation-Title: Employdemy Solutions - UI apps
+Implementation-Version: 1.0.0-SNAPSHOT
+Content-Package-Type: application
+Content-Package-Id: com.employdemysolutions:employdemy-solutions.ui.apps
+ :1.0.0-SNAPSHOT
+Content-Package-Description: UI apps package for Employdemy Solutions
+Content-Package-Roots: /apps/employdemy-solutions/clientlibs,/apps/emplo
+ ydemy-solutions/components,/apps/employdemy-solutions/i18n
+Import-Package: com.employdemysolutions.core.models;version="[1.0.0,2.0.
+ 0)",org.apache.sling.scripting.sightly;version="[2.0.0,3.0.0)"
+

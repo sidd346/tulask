@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 17
+Implementation-Title: Employdemy Solutions - UI content
+Implementation-Version: 1.0.0-SNAPSHOT
+Content-Package-Type: content
+Content-Package-Id: com.employdemysolutions:employdemy-solutions.ui.cont
+ ent:1.0.0-SNAPSHOT
+Content-Package-Description: UI content package for Employdemy Solutions
+Content-Package-Dependencies: com.employdemysolutions:employdemy-solutio
+ ns.ui.apps:1.0.0-SNAPSHOT
+Content-Package-Dependencies-Locations: com.employdemysolutions:employde
+ my-solutions.ui.apps:1.0.0-SNAPSHOT=maven:com.employdemysolutions:emplo
+ ydemy-solutions.ui.apps:1.0.0-SNAPSHOT:zip
+Content-Package-Roots: /conf/employdemy-solutions,/content/dam/employdem
+ y-solutions/asset.jpg,/content/employdemy-solutions,/content/experience
+ -fragments/employdemy-solutions
+

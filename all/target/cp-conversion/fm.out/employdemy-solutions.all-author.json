@@ -1,0 +1,36 @@
+{
+  "id":"com.employdemysolutions:employdemy-solutions.all:slingosgifeature:author:1.0.0-SNAPSHOT",
+  "configurations":  {
+    "com.adobe.granite.cors.impl.CORSPolicyImpl~employdemy-solutions":    {
+      "alloworigin":[
+        "http://localhost:3000"
+      ],
+      "allowedpaths":[
+        "/(content|conf)/employdemy-solutions.*"
+      ],
+      "supportedheaders":[
+        "Authorization",
+        "Origin",
+        "Accept",
+        "X-Requested-With",
+        "Content-Type",
+        "Access-Control-Request-Method",
+        "Access-Control-Request-Headers"
+      ],
+      "supportedmethods":[
+        "GET",
+        "HEAD"
+      ],
+      "alloworiginregexp":[
+      ],
+      ":configurator:content-package-origins":"com.employdemysolutions:employdemy-solutions.all:1.0.0-SNAPSHOT|com.employdemysolutions:employdemy-solutions.ui.config:1.0.0-SNAPSHOT"
+    },
+    "com.day.cq.wcm.mobile.core.impl.MobileEmulatorProvider~employdemy-solutions":    {
+      "mobile.resourceTypes":[
+        "employdemy-solutions/components/page"
+      ],
+      "README":"Indicate which page resource types should display the mobile emulators.",
+      ":configurator:content-package-origins":"com.employdemysolutions:employdemy-solutions.all:1.0.0-SNAPSHOT|com.employdemysolutions:employdemy-solutions.ui.config:1.0.0-SNAPSHOT"
+    }
+  }
+}

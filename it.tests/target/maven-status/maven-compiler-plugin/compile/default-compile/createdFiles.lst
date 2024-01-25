@@ -1,0 +1,4 @@
+com\employdemysolutions\it\tests\PublishPageValidationIT.class
+com\employdemysolutions\it\tests\GetPageIT.class
+com\employdemysolutions\it\tests\CreatePageIT.class
+com\employdemysolutions\it\tests\HtmlUnitClient.class
