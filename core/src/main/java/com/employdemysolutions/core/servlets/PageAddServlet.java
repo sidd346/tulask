@@ -40,7 +40,7 @@ public class PageAddServlet extends SlingSafeMethodsServlet {
                     Page newpage = pageManager.create(parentPath, pageName, template, title,true);
                     resourceResolver.commit();
                     response.setContentType("text/plain");
-                    response.getWriter().write(" "+newpage +"sidd");
+                    response.getWriter().write(" "+newpage +"");
                     }   
                 } catch (Exception e) {
                     log.error(e.getMessage(), e);
