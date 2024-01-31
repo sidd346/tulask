@@ -5,7 +5,7 @@
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="acHandling">merge</entry>
 <entry key="dependencies-locations">com.employdemysolutions:employdemy-solutions.ui.apps:1.0.0-SNAPSHOT=maven:com.employdemysolutions:employdemy-solutions.ui.apps:1.0.0-SNAPSHOT:zip</entry>
-<entry key="created">2024-01-25T11:30:19.107Z</entry>
+<entry key="created">2024-01-31T08:15:35.183Z</entry>
 <entry key="groupId">com.employdemysolutions</entry>
 <entry key="description">UI content package for Employdemy Solutions</entry>
 <entry key="version">1.0.0-SNAPSHOT</entry>

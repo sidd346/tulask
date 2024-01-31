@@ -4,7 +4,7 @@
 <comment>Employdemy Solutions - Repository Structure Package</comment>
 <entry key="cloudManagerTarget">none</entry>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2024-01-25T11:30:17.870Z</entry>
+<entry key="created">2024-01-31T08:15:08.484Z</entry>
 <entry key="groupId">com.employdemysolutions</entry>
 <entry key="name">employdemy-solutions.ui.apps.structure</entry>
 <entry key="description">Empty package that defines the structure of the Adobe Experience Manager repository the Code packages in this project deploy into.

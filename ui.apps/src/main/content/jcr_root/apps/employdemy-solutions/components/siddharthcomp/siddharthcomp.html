@@ -1,0 +1,15 @@
+
+<sly data-sly-use.model="${'com.employdemysolutions.core.models.SiddharthComp'}">
+    <div class="siddharthcomp">
+        <h2>${model.guideTopText}</h2>
+        <p>${model.guideBottomText}</p>
+       
+                <sly data-sly-list.item="${model.guideRelevantList}">
+                    <li class="siddharthcomp-list-item">
+                        <img src="${item.guideListImage}" width="500" height="600">
+                        ${item.iconImageAltText}
+                        ${item.guideText}
+                    </li>
+                </sly>
+            </div>
+        </sly> 

@@ -1,13 +1,23 @@
-C:\Users\Employdemy Solutions\Desktop\siddharth tulaskar\sidd\employdemy-solutions\core\src\main\java\com\employdemysolutions\core\schedulers\SimpleScheduledTask.java
-C:\Users\Employdemy Solutions\Desktop\siddharth tulaskar\sidd\employdemy-solutions\core\src\main\java\com\employdemysolutions\core\models\HelloWorldModel.java
-C:\Users\Employdemy Solutions\Desktop\siddharth tulaskar\sidd\employdemy-solutions\core\src\main\java\com\employdemysolutions\core\servlets\SlingServlet.java
-C:\Users\Employdemy Solutions\Desktop\siddharth tulaskar\sidd\employdemy-solutions\core\src\main\java\com\employdemysolutions\core\filters\LoggingFilter.java
-C:\Users\Employdemy Solutions\Desktop\siddharth tulaskar\sidd\employdemy-solutions\core\src\main\java\com\employdemysolutions\core\models\package-info.java
-C:\Users\Employdemy Solutions\Desktop\siddharth tulaskar\sidd\employdemy-solutions\core\src\main\java\com\employdemysolutions\core\listeners\package-info.java
-C:\Users\Employdemy Solutions\Desktop\siddharth tulaskar\sidd\employdemy-solutions\core\src\main\java\com\employdemysolutions\core\servlets\SimpleServlet.java
-C:\Users\Employdemy Solutions\Desktop\siddharth tulaskar\sidd\employdemy-solutions\core\src\main\java\com\employdemysolutions\core\servlets\package-info.java
-C:\Users\Employdemy Solutions\Desktop\siddharth tulaskar\sidd\employdemy-solutions\core\src\main\java\com\employdemysolutions\core\schedulers\package-info.java
-C:\Users\Employdemy Solutions\Desktop\siddharth tulaskar\sidd\employdemy-solutions\core\src\main\java\com\employdemysolutions\core\filters\package-info.java
-C:\Users\Employdemy Solutions\Desktop\siddharth tulaskar\sidd\employdemy-solutions\core\src\main\java\com\employdemysolutions\core\listeners\SimpleResourceListener.java
-C:\Users\Employdemy Solutions\Desktop\siddharth tulaskar\sidd\employdemy-solutions\core\src\main\java\com\employdemysolutions\core\servlets\PageAddServlet.java
-C:\Users\Employdemy Solutions\Desktop\siddharth tulaskar\sidd\employdemy-solutions\core\src\main\java\com\employdemysolutions\core\servlets\ResolverUtil.java
+C:\Users\Employdemy Solutions\Desktop\tulask\core\src\main\java\com\employdemysolutions\core\models\ContentModel.java
+C:\Users\Employdemy Solutions\Desktop\tulask\core\src\main\java\com\employdemysolutions\core\servlets\ResolverUtil.java
+C:\Users\Employdemy Solutions\Desktop\tulask\core\src\main\java\com\employdemysolutions\core\service\PageQueryServiceImpl.java
+C:\Users\Employdemy Solutions\Desktop\tulask\core\src\main\java\com\employdemysolutions\core\listeners\SimpleResourceListener.java
+C:\Users\Employdemy Solutions\Desktop\tulask\core\src\main\java\com\employdemysolutions\core\models\AccordionBulletPointModel.java
+C:\Users\Employdemy Solutions\Desktop\tulask\core\src\main\java\com\employdemysolutions\core\servlets\SimpleServlet.java
+C:\Users\Employdemy Solutions\Desktop\tulask\core\src\main\java\com\employdemysolutions\core\schedulers\SimpleScheduledTask.java
+C:\Users\Employdemy Solutions\Desktop\tulask\core\src\main\java\com\employdemysolutions\core\servlets\package-info.java
+C:\Users\Employdemy Solutions\Desktop\tulask\core\src\main\java\com\employdemysolutions\core\service\PageInfo.java
+C:\Users\Employdemy Solutions\Desktop\tulask\core\src\main\java\com\employdemysolutions\core\models\somacomp.java
+C:\Users\Employdemy Solutions\Desktop\tulask\core\src\main\java\com\employdemysolutions\core\filters\LoggingFilter.java
+C:\Users\Employdemy Solutions\Desktop\tulask\core\src\main\java\com\employdemysolutions\core\models\AccordionModel.java
+C:\Users\Employdemy Solutions\Desktop\tulask\core\src\main\java\com\employdemysolutions\core\listeners\package-info.java
+C:\Users\Employdemy Solutions\Desktop\tulask\core\src\main\java\com\employdemysolutions\core\models\HelloWorldModel.java
+C:\Users\Employdemy Solutions\Desktop\tulask\core\src\main\java\com\employdemysolutions\core\service\PageQueryService.java
+C:\Users\Employdemy Solutions\Desktop\tulask\core\src\main\java\com\employdemysolutions\core\filters\package-info.java
+C:\Users\Employdemy Solutions\Desktop\tulask\core\src\main\java\com\employdemysolutions\core\servlets\PageAddServlet.java
+C:\Users\Employdemy Solutions\Desktop\tulask\core\src\main\java\com\employdemysolutions\core\servlets\SlingServlet.java
+C:\Users\Employdemy Solutions\Desktop\tulask\core\src\main\java\com\employdemysolutions\core\models\SiddharthComp.java
+C:\Users\Employdemy Solutions\Desktop\tulask\core\src\main\java\com\employdemysolutions\core\models\OverviewArticleComp.java
+C:\Users\Employdemy Solutions\Desktop\tulask\core\src\main\java\com\employdemysolutions\core\schedulers\package-info.java
+C:\Users\Employdemy Solutions\Desktop\tulask\core\src\main\java\com\employdemysolutions\core\models\package-info.java
+C:\Users\Employdemy Solutions\Desktop\tulask\core\src\main\java\com\employdemysolutions\core\models\overcomp.java

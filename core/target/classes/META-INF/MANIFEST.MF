@@ -8,38 +8,49 @@ Bundle-Version: 1.0.0.SNAPSHOT
 Export-Package: com.employdemysolutions.core.filters;version="1.0";use
  s:="javax.servlet",com.employdemysolutions.core.listeners;version="1.
  0";uses:="org.apache.sling.api.resource.observation",com.employdemyso
- lutions.core.models;version="1.0";uses:="javax.annotation,org.apache.
- sling.api.resource,org.apache.sling.models.annotations,org.apache.sli
- ng.models.annotations.injectorspecific",com.employdemysolutions.core.
- schedulers;version="1.0",com.employdemysolutions.core.servlets;versio
- n="1.0";uses:="javax.servlet,org.apache.sling.api,org.apache.sling.ap
- i.resource,org.apache.sling.api.servlets"
-Import-Package: javax.annotation;version="0.0.0",com.day.cq.wcm.api;ve
- rsion="[1.30,2)",com.employdemysolutions.core.filters;version="[1.0,2
- )",com.employdemysolutions.core.listeners;version="[1.0,2)",com.emplo
- ydemysolutions.core.schedulers;version="[1.0,2)",com.employdemysoluti
- ons.core.servlets;version="[1.0,2)",javax.servlet;version="[3.0,4)",o
- rg.apache.sling.api;version="[2.3,3)",org.apache.sling.api.request;ve
- rsion="[2.7,3)",org.apache.sling.api.resource;version="[2.13,3)",org.
- apache.sling.api.resource.observation;version="[1.2,2)",org.apache.sl
- ing.api.servlets;version="[2.4,3)",org.apache.sling.models.annotation
- s;version="[1.5,2)",org.apache.sling.models.annotations.injectorspeci
- fic;version="[1.1,2)",org.slf4j;version="[1.7,2)"
-Provide-Capability: osgi.service;objectClass:List<String>="java.lang.R
- unnable",osgi.service;objectClass:List<String>="javax.servlet.Filter"
- ;uses:="javax.servlet",osgi.service;objectClass:List<String>="javax.s
- ervlet.Servlet";uses:="javax.servlet",osgi.service;objectClass:List<S
- tring>="org.apache.sling.api.resource.observation.ResourceChangeListe
- ner";uses:="org.apache.sling.api.resource.observation"
+ lutions.core.models;version="1.0";uses:="com.adobe.cq.export.json,jav
+ ax.annotation,org.apache.sling.api,org.apache.sling.api.resource,org.
+ apache.sling.models.annotations,org.apache.sling.models.annotations.i
+ njectorspecific",com.employdemysolutions.core.schedulers;version="1.0
+ ",com.employdemysolutions.core.servlets;version="1.0";uses:="javax.se
+ rvlet,org.apache.sling.api,org.apache.sling.api.servlets"
+Import-Package: javax.annotation;version="0.0.0",com.adobe.cq.export.j
+ son;version="[2.0,3)",com.day.cq.search;version="[1.5,2)",com.day.cq.
+ search.result;version="[1.2,2)",com.day.cq.wcm.api;version="[1.30,2)"
+ ,com.day.cq.wcm.foundation;version="[5.23,6)",com.employdemysolutions
+ .core.filters;version="[1.0,2)",com.employdemysolutions.core.listener
+ s;version="[1.0,2)",com.employdemysolutions.core.schedulers;version="
+ [1.0,2)",com.employdemysolutions.core.servlets;version="[1.0,2)",java
+ x.inject;version="[1.0,2)",javax.jcr;version="[2.0,3)",javax.servlet;
+ version="[3.0,4)",org.apache.sling.api;version="[2.3,3)",org.apache.s
+ ling.api.request;version="[2.7,3)",org.apache.sling.api.resource;vers
+ ion="[2.13,3)",org.apache.sling.api.resource.observation;version="[1.
+ 2,2)",org.apache.sling.api.servlets;version="[2.4,3)",org.apache.slin
+ g.models.annotations;version="[1.5,2)",org.apache.sling.models.annota
+ tions.injectorspecific;version="[1.1,2)",org.slf4j;version="[1.7,2)"
+Private-Package: com.employdemysolutions.core.service
+Provide-Capability: osgi.service;objectClass:List<String>="com.employd
+ emysolutions.core.service.PageQueryService";uses:="com.employdemysolu
+ tions.core.service",osgi.service;objectClass:List<String>="java.lang.
+ Runnable",osgi.service;objectClass:List<String>="javax.servlet.Filter
+ ";uses:="javax.servlet",osgi.service;objectClass:List<String>="javax.
+ servlet.Servlet";uses:="javax.servlet",osgi.service;objectClass:List<
+ String>="org.apache.sling.api.resource.observation.ResourceChangeList
+ ener";uses:="org.apache.sling.api.resource.observation"
 Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compo
  nent)(version>=1.5.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.e
  e=JavaSE)(version=1.8))"
 Service-Component: OSGI-INF/com.employdemysolutions.core.filters.Loggi
  ngFilter.xml,OSGI-INF/com.employdemysolutions.core.listeners.SimpleRe
  sourceListener.xml,OSGI-INF/com.employdemysolutions.core.schedulers.S
- impleScheduledTask.xml,OSGI-INF/com.employdemysolutions.core.servlets
- .PageAddServlet.xml,OSGI-INF/com.employdemysolutions.core.servlets.Si
- mpleServlet.xml
-Sling-Model-Classes: com.employdemysolutions.core.models.HelloWorldMod
- el
+ impleScheduledTask.xml,OSGI-INF/com.employdemysolutions.core.service.
+ PageQueryServiceImpl.xml,OSGI-INF/com.employdemysolutions.core.servle
+ ts.PageAddServlet.xml,OSGI-INF/com.employdemysolutions.core.servlets.
+ SimpleServlet.xml
+Sling-Model-Classes: com.employdemysolutions.core.models.AccordionBull
+ etPointModel,com.employdemysolutions.core.models.AccordionModel,com.e
+ mploydemysolutions.core.models.HelloWorldModel,com.employdemysolution
+ s.core.models.OverviewArticleComp,com.employdemysolutions.core.models
+ .SiddharthComp,com.employdemysolutions.core.models.SiddharthComp$Soma
+ componentList
 

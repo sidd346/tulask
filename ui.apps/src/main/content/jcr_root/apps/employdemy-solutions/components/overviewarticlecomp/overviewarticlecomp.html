@@ -1,0 +1,13 @@
+
+<div data-sly-use.overviewArticleComp="com.employdemysolutions.core.models.OverviewArticleComp">
+    <h1>${overviewArticleComp.name}</h1>
+    <p>${overviewArticleComp.PathField}</p>
+
+    <ul data-sly-list="${overviewArticleComp.pageInfoList}">
+        <li>${item.pagePath} - ${item.pageTitle}</li>
+    </ul>
+</div>
+
+</sly>
+
+

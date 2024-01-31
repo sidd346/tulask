@@ -1,0 +1,13 @@
+
+<sly data-sly-use.model="${'com.employdemysolutions.core.models.AccordionModel'}">
+    <div class="accordianmodel">
+        <p>${model.title}</p>
+        <p>${model.subtitle}</p>
+       
+                <sly data-sly-list.item="${model.bulletPointList}">
+                    <li >
+                        ${item.description}
+                    </li>
+                </sly>
+            </div>
+        </sly>

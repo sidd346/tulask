@@ -4,7 +4,7 @@
 <comment>Employdemy Solutions - UI config</comment>
 <entry key="cloudManagerTarget">none</entry>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2024-01-25T11:30:18.649Z</entry>
+<entry key="created">2024-01-31T08:15:39.107Z</entry>
 <entry key="groupId">com.employdemysolutions</entry>
 <entry key="name">employdemy-solutions.ui.config</entry>
 <entry key="description">UI config package for Employdemy Solutions</entry>
