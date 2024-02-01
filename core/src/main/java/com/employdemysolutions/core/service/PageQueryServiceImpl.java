@@ -6,9 +6,8 @@ import org.apache.sling.api.resource.ResourceResolverFactory;
 import org.apache.sling.models.annotations.injectorspecific.OSGiService;
 import org.osgi.service.component.annotations.Component;
 
-import com.day.cq.search.QueryBuilder;
-
 import com.day.cq.search.PredicateGroup;
+import com.day.cq.search.QueryBuilder;
 
 import javax.jcr.Session;
 import java.util.ArrayList;
@@ -39,7 +38,7 @@ public class PageQueryServiceImpl implements PageQueryService {
                     "type", "cq:Page",
                     "path", "/content/employdemy-solutions",
                     "property", "jcr:content/cq:template",
-                    "property.value", "/conf/employdemy-solutions/settings/wcm/templates/page-content",
+                    "property.value", "/conf/employdemy-solutions/settings/wcm/templates/siddtemplet",
                     "p.limit", "-1");
 
             // Execute the query
